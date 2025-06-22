@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pri-color: #2d2d37;
+    --white: #f6f6f6;
+    --white-dark: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 95%;
+    margin-inline: auto;
+}
+
+.top-margin{
+    margin-top: 5rem;
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 85%;
+    }
+}
+
+@media (min-width: 1500px){
+    .container{
+        width: 70%;
+    }
+}
+
+@media (min-width: 2500px){
+    .container{
+        width: 60%;
+    }
+}
+
