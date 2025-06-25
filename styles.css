@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 :root{
     --pri-color: #2d2d37;
+    --red: #f5654d;
     --white: #f6f6f6;
     --white-dark: #f4f4f4;
-    font-family: "Poppins", sans-serif;
+    --green: #05b9b1;
 }
 
 .container{
