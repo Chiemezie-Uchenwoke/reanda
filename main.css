@@ -133,7 +133,7 @@ header img{
 
 /* company */
 .company{
-    background-color: var(--red);
+    background-color: var(--pri-color);
     color: var(--red);
     color: var(--white);
     border-radius: 10px;
