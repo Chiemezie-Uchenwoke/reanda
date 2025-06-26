@@ -131,6 +131,11 @@ header img{
     /* flex-shrink: 0; */
 }
 
+.contact a{
+    color: var(--pri-color);
+    font-weight: 500;
+}
+
 /* company */
 .company{
     background-color: var(--pri-color);
