@@ -136,6 +136,10 @@ header img{
     font-weight: 500;
 }
 
+.contact a:hover{
+    color: var(--red);
+}
+
 /* company */
 .company{
     background-color: var(--pri-color);
