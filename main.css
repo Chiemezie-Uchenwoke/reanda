@@ -91,7 +91,7 @@ header img{
 
 .about-company h1{
     text-transform: uppercase;
-    color: var(--green);
+    color: var(--pri-color);
     font-size: 2rem;
 }
 
@@ -173,12 +173,13 @@ header img{
 footer{
     border-top: 1px solid rgba(45, 45, 55, 0.1);
     margin-top: 3rem;
-    padding: 4rem 0;
+    padding: 3rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     gap: 0.3rem;
+    font-size: 0.9rem;
+
 }
 
 @media (min-width: 1000px){
