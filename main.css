@@ -35,7 +35,7 @@ header img{
 /* card */
 .card{
     width: 100%;
-    max-width: 45rem;
+    max-width: 50rem;
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
