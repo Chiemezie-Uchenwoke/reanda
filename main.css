@@ -8,6 +8,7 @@
 
 body{
     background-color: var(--white-dark);
+
 }
 
 header{
@@ -34,7 +35,7 @@ header img{
 
 /* card */
 .card{
-    width: 100%;
+    width: 95%;
     max-width: 50rem;
     /* height: 25rem; */
     margin: 2rem auto;
