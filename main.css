@@ -8,7 +8,7 @@
 
 body{
     background-color: var(--white-dark);
-
+    
 }
 
 header{
@@ -37,7 +37,6 @@ header img{
 .card{
     width: 95%;
     max-width: 50rem;
-    /* height: 25rem; */
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
@@ -47,7 +46,7 @@ header img{
     border-radius: 10px;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.05);
     position: relative;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .card figure{
@@ -168,9 +167,9 @@ header img{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
-    font-size: 12rem;
+    font-size: 8rem;
     opacity: 0.07;
-    z-index: -1;
+    z-index: 2;
 }
 
 /* footer */
@@ -183,6 +182,12 @@ footer{
     gap: 0.3rem;
     font-size: 0.8rem;
 
+}
+
+@media (min-width: 600px){
+    .watermark{
+        font-size: 12rem;
+    }
 }
 
 @media (min-width: 1000px){
